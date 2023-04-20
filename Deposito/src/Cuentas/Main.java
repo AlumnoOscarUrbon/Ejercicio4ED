@@ -4,7 +4,7 @@ package Cuentas;
 *Esta clase se encarga de realizar operaciones sobre las cuentas bancarias. 
 *
 *@author Oscar Urbon Risueno
-*@version 1.0
+*@version 1.1
 */
 public class Main {
 	
@@ -13,7 +13,7 @@ public class Main {
 	*/
     public static void main(String[] args) {
        	CCuenta cuenta1;
-    	cuenta1 = new CCuenta("Antonio López","1000-2365-85-1230456789",3000,0);
+    	cuenta1 = new CCuenta("Antonio López","1000-2365-85-1230456789",2500,0);
     	operativa_cuenta (cuenta1,0);
     }
     
